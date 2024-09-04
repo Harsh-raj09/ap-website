@@ -1,0 +1,168 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(125, 99, 118);
+}
+
+html,body{
+   
+}
+
+/* footer */
+
+
+footer{
+    width: 90%;
+    height: 500px;
+    
+    margin-left: 20px;
+    color: rgb(193, 130, 130);
+}
+
+ #us-on{
+    margin-left: 140px;
+    margin-top: 15px;
+ }
+
+ #phone-no{
+   margin-left: 120px;
+   margin-top: 15px;
+ }
+ 
+ footer{
+    background-color: rgb(125, 99, 118);
+ }
+   /* social media  */
+ 
+   .fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa-instagram {
+    background: #af324d;
+    color: white;
+}
+
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+
+/* content */
+
+.box{
+    display: flex;
+    width: 100%;
+    height: 2900px;
+    border: 2px solid black;
+    background-color: #352d2e;
+    flex-wrap: wrap;
+    
+}
+
+.photo{
+    width: 300px;
+    height: 360px;
+    border: 2px solid black;
+    margin-left: 65px;
+    margin-top: 0px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+
+#one{
+    background-image: url('Bridal photo/BridalTwo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#two{
+    background-image: url('Bridal photo/BridalOne.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#three{
+    background-image: url('Bridal photo/BridalThree.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#four{
+    background-image: url('Bridal photo/BridalFour.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#five{
+    background-image: url('Bridal photo/BridalFive.jpg');
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+}
+
+#six{
+    background-image: url('Bridal photo/BridalSix.jpg');
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+/* for larger scereen */
+   
+    @media only screen and (min-width: 1000px) {
+
+       body{
+        background-color: rgb(125, 99, 118);
+       }
+
+        .box{
+            display: flex;
+            width: 1000px;
+            height: 1200px;
+            background-color: rgb(125, 99, 118);
+            flex-wrap: wrap;
+            margin-left: 250px;
+            border: none;
+        }
+        
+        .photo{
+            width: 240px;
+            height: 330px;
+            border: 2px solid black;
+            margin: 30px;
+        }
+
+
+    }

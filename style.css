@@ -1,0 +1,214 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+
+html,body{
+   
+}
+
+
+footer{
+    width: 90%;
+    height: 500px;
+    border: 2px solid black;
+    margin-left: 20px;
+    color: rgb(177, 98, 98);
+}
+
+ #us-on{
+    margin-left: 140px;
+    margin-top: 15px;
+ }
+
+ #phone-no{
+   margin-left: 120px;
+   margin-top: 15px;
+ }
+ 
+ footer{
+    background-color: bisque;
+ }
+   /* social media  */
+ 
+   .fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa-instagram {
+    background: #af324d;
+    color: white;
+}
+
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.box{
+    width: 100px;
+    height: 50px;
+    border: 2px solid black;
+}
+
+/* box */
+
+.video-text {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 150px;
+    height: 300px;
+    top:65px; 
+    left: 58%; 
+    font-size: 18px;
+    font-weight: bold;
+    z-index: 1; 
+    align-items: flex-end;
+    
+}
+
+.page{
+    width: 110px;
+    height: 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(112, 42, 73);
+    background-color: rgb(255, 255, 255,0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    }
+
+  #book-now{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: smaller;
+    border-radius: 2px;
+    color: #953b4f;
+    border: none;
+    background-color: rgb(255,255,255,0.2);
+    backdrop-filter: blur(8px);
+  }
+
+
+
+  
+
+ /* for smaller screen */
+
+ @media only screen and (max-width: 1000px) {
+       video{
+        width: 100%;
+        
+       } 
+    }
+      
+
+
+    /* for larger scereen */
+   
+    @media only screen and (min-width: 1000px) {
+             
+       video{
+        display: none;
+       }
+        
+       .page-one{
+        width: 100%;
+        height: 2100px;
+        background-image: url(mamma.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+        }
+
+        footer{
+            width: 90%;
+            height: 300px;
+            border: 2px solid black;
+            margin-left: 60px;
+            
+            
+        }
+           
+        #us-on{
+            margin-left: 540px;
+            margin-top: 15px;
+         }
+        
+         #phone-no{
+           margin-left: 517px;
+           margin-top: 15px;
+         }
+
+         #queries{
+            margin-left: 430px;
+            margin-top: 15px;
+         }
+      
+         
+
+.fa {
+    padding: 30px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.video-text {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 150px;
+    height: 300px;
+    top:170px; 
+    left: 58%; 
+    font-size: 18px;
+    font-weight: bold;
+    z-index: 1; 
+    align-items: flex-end;
+    margin-left: 350px;
+
+    
+}
+
+.page{
+    height: 60px;
+}
+
+        
+     }
+      
