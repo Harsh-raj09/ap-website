@@ -5,17 +5,18 @@
     
 }
 
-
-html,body{
-   
+.container{
+    height: 82vh;
 }
 
 
+
+
+
 footer{
-    width: 90%;
-    height: 500px;
+    position: relative;
+    width: 100%;
     border: 2px solid black;
-    margin-left: 20px;
     color: rgb(177, 98, 98);
 }
 
@@ -108,15 +109,23 @@ footer{
 
 
 
-  .name{position: absolute;
-    border-radius: 10px;
-    top:5px; 
-    left: 59%;
+  .name{
+    position: relative;
+    border-radius: 10px; 
+    top:7vw;
+    left: 55%;
     font-size: 18px;
     font-weight: bold;
     z-index: 1; 
     align-items: flex-end;
     color: #fed3cafa;
+}
+
+
+
+video{
+    position: absolute;
+
 }
 
 #insta-logo{
@@ -139,17 +148,15 @@ footer{
 }
 
 .menu{
-    position: absolute;
-     top: 1px;
-    left: 1px;
+    position: relative;
+    top: 1px;
+    right: -95vw;
     font-size: 10px;
     font-weight: bold;
     z-index: 1; 
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 395px;
-    margin-top: 2px;
     font-size: 30px;
     cursor: pointer;
     color: #f9f5f6;
@@ -226,12 +233,12 @@ a{
     @media only screen and (min-width: 1000px) {
              
        video{
-        display: none;
+        display: block;
        }
         
        .page-one{
         width: 100%;
-        height: 2100px;
+        height: 100vw;
         background-image: url(mamma.jpg);
         background-size: cover;
         background-repeat: no-repeat;
@@ -299,4 +306,29 @@ a{
 
         
      }
+
+
+
+@media (max-width:500px){
+    .menu{
+        position: relative;
+        top: 0;
+        right: -92vw;
+        font-size: 10px;
+        font-weight: bold;
+        font-size: 30px;
+        cursor: pointer;
+        background-color: rgb(93, 50, 50);
+        width: fit-content;
+        border: 2px solid black;
+    
+    }
+
+    #frontThing{
+        position: relative;
+        top:-5vw;
+        
+        display: block;
+    }
+}
       
