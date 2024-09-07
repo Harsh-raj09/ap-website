@@ -75,7 +75,7 @@ footer{
 .box{
     display: flex;
     width: 100%;
-    height: 2400px;
+    height: 2900px;
     border: 2px solid black;
     background-color: #352d2e;
     flex-wrap: wrap;
@@ -84,58 +84,76 @@ footer{
 
 .photo{
     width: 100%;
-    height: 450px;
+    height: 600px;
     border: 2px solid black;
-    margin-bottom: 8px;
-    margin-top: 0px;
-    border-radius: 10px;
+    margin-left: 0px;
+   border-radius: 10px;
+   margin-bottom: 20px;
     
 }
 
 
 #one{
-    background-image: url('eye photo/eyeOne.jpg');
+    background-image: url('Hd photo/Hdone.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #two{
-    background-image: url('eye photo/eyeSeaven.jpg');
+    background-image: url('Hd photo/Hdthree.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 
 #three{
-    background-image: url('eye photo/eyeThree.jpg');
+    background-image: url('Hd photo/HdTwo.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #four{
-    background-image: url('eye photo/eyeEight.jpg');
+    background-image: url('Hd photo/HdFour.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-   
 }
 
 #five{
-    background-image: url('eye photo/eyeNine.jpg');
+    background-image: url('Hd photo/HdFive.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
-    height: 320px;
-   
     
+    background-repeat: no-repeat;
 }
 
 #six{
-    background-image: url('eye photo/eyeEleven.jpg');
+    background-image: url('Hd photo/HdSix.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
-    height: 320px;
     
-   
+    background-repeat: no-repeat;
 }
+
+#seven{
+    background-image: url('Hd photo/HdSeven.jpg');
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+}
+
+#eight{
+    background-image: url('Hd photo/HdEight.jpg');
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+}
+
+#nine{
+    background-image: url('Hd photo/HdNine.jpg');
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    
+}
+
 
 
 
@@ -165,7 +183,7 @@ footer{
         .photo{
             width: 240px;
             height: 330px;
-            
+            border: 2px solid black;
             margin: 30px;
         }
 

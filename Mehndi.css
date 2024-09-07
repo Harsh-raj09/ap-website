@@ -5,9 +5,9 @@
     background-color: rgb(125, 99, 118);
 }
 
-html,body{
+/* html,body{
    
-}
+} */
 
 /* footer */
 
@@ -33,6 +33,39 @@ footer{
  footer{
     background-color: rgb(125, 99, 118);
  }
+
+
+ .whatsapp_float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+  }
+  .whatsapp-icon {
+    margin-top: 16px;
+  }
+
+  /* for mobile */
+  @media screen and (max-width: 767px){
+    .whatsapp-icon {
+      margin-top: 10px;
+    }
+    .whatsapp_float {
+      width: 40px;
+      height: 40px;
+      bottom: 20px;
+      right: 10px;
+      font-size: 22px;
+    }
+  }
    /* social media  */
  
    .fa {
@@ -75,7 +108,7 @@ footer{
 .box{
     display: flex;
     width: 100%;
-    height: 2900px;
+    height: 3900px;
     border: 2px solid black;
     background-color: #352d2e;
     flex-wrap: wrap;
@@ -83,10 +116,9 @@ footer{
 }
 
 .photo{
-    width: 300px;
-    height: 360px;
+    width: 100%;
+    height: 600px;
     border: 2px solid black;
-    margin-left: 65px;
     margin-top: 0px;
     border-radius: 10px;
     margin-top: 5px;
@@ -94,44 +126,63 @@ footer{
 
 
 #one{
-    background-image: url('Bridal photo/BridalTwo.jpg');
+    background-image: url('Mehndi photo/MehndiOne.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #two{
-    background-image: url('Bridal photo/BridalOne.jpg');
+    background-image: url('Mehndi photo/MehndiTwo.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 
 #three{
-    background-image: url('Bridal photo/BridalThree.jpg');
+    background-image: url('Mehndi photo/MehndiThree.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #four{
-    background-image: url('Bridal photo/BridalFour.jpg');
+    background-image: url('Mehndi photo/MehndiFour.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    height: 450px;
 }
 
 #five{
-    background-image: url('Bridal photo/BridalFive.jpg');
+    background-image: url('Mehndi photo/MehndiFive.jpg');
     background-size: cover;
     
     background-repeat: no-repeat;
 }
 
 #six{
-    background-image: url('Bridal photo/BridalSix.jpg');
+    background-image: url('Mehndi photo/MehndiSix.jpg');
     background-size: cover;
     
     background-repeat: no-repeat;
 }
 
+#seven{
+    background-image: url('Mehndi photo/MehndiSeven.jpg');
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+}
+#eight{
+    background-image: url('Mehndi photo/MehndiEight.jpg');
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+}
+#nine{
+    background-image: url('Mehndi photo/MehndiNine.jpg');
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+}
 
 
 
